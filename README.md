@@ -4,6 +4,8 @@
 
 Notre équipe s’intéresse de près à la **consommation énergétique** et aux **émissions de gaz à effet de serre** des bâtiments **non destinés à l’habitation**.
 
+A partir de ceux déjà réalisés, vous voulez tenter de prédire les émissions de CO2 et la **consommation totale d’énergie** de bâtiments **non destinés à l’habitation**
+
 ## 🏢 Types de bâtiments étudiés
 
 - Écoles et établissements publics (`SPS-District K-12`)
@@ -65,7 +67,7 @@ Notre équipe s’intéresse de près à la **consommation énergétique** et au
 * Address = Adresse du batiment
 * TaxParcelIdentificationNumber = Numero Tax Administratif
 * DefaultData = Non pertinent
-* Outlier
+* Outlier = Traitement
 
 ## 🔠 Abréviatio
 
