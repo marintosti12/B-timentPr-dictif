@@ -11,6 +11,62 @@ Notre équipe s’intéresse de près à la **consommation énergétique** et au
 - Bâtiments non résidentiels (`NonResidential`, `Nonresidential COS`, `Nonresidential WA`)
 - Bâtiments résidentiels (`Multifamily LR`,`MultiFamily MR`,`Multifamily HR`)
 
+## 📈 Toutes les colonnes
+
+OSEBuildingID                        int64
+BuildingType                        object
+PrimaryPropertyType                 object
+PropertyName                        object
+Address                             object
+ZipCode                            float64
+TaxParcelIdentificationNumber       object
+CouncilDistrictCode                  int64
+Neighborhood                        object
+Latitude                           float64
+Longitude                          float64
+YearBuilt                            int64
+NumberofBuildings                  float64
+NumberofFloors                       int64
+PropertyGFATotal                     int64
+PropertyGFAParking                   int64
+PropertyGFABuilding(s)               int64
+ListOfAllPropertyUseTypes           object
+LargestPropertyUseType              object
+LargestPropertyUseTypeGFA          float64
+SecondLargestPropertyUseType        object
+SecondLargestPropertyUseTypeGFA    float64
+ThirdLargestPropertyUseType         object
+ThirdLargestPropertyUseTypeGFA     float64
+YearsENERGYSTARCertified            object
+ENERGYSTARScore                    float64
+SiteEUI(kBtu/sf)                   float64
+SiteEUIWN(kBtu/sf)                 float64
+SourceEUI(kBtu/sf)                 float64
+SourceEUIWN(kBtu/sf)               float64
+SiteEnergyUse(kBtu)                float64
+SiteEnergyUseWN(kBtu)              float64
+SteamUse(kBtu)                     float64
+Electricity(kWh)                   float64
+Electricity(kBtu)                  float64
+NaturalGas(therms)                 float64
+NaturalGas(kBtu)                   float64
+DefaultData                           bool
+ComplianceStatus                    object
+Outlier                             object
+TotalGHGEmissions                  float64
+GHGEmissionsIntensity              float64
+dtype: object
+
+
+
+## 🔠 Abréviation
+
+**GFA** = **Gross Floor Area**
+
+**GHG** = **Greenhouse Gas**
+
+
+
 ## ⚙️ Outils utilisés
 
 - Python 3.12
